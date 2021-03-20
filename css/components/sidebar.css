@@ -38,6 +38,10 @@ ul li:hover a {
   background: #474747;
 }
 
+.vno {
+  letter-spacing: 2px;
+}
+
 .version {
   position: relative;
   color: white;
