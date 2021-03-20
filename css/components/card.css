@@ -1,0 +1,56 @@
+.CardSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.card {
+  background-color: white;
+  color: black;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  margin: 20px;
+  width: 280px;
+}
+
+.cardImg .cardimage {
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.greytxt {
+  color: rgb(100, 100, 100);
+  letter-spacing: 2px;
+  padding-bottom: 15px;
+}
+
+.cardContent {
+  padding: 24px;
+}
+
+.blogiconcontainer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.blogicon {
+  width: 30px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+@media (max-width: 700px) {
+  .card {
+    margin: 22px;
+    width: 85%;
+  }
+
+  .cards {
+    flex-direction: column;
+  }
+}
