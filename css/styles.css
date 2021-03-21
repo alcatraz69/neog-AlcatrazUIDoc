@@ -34,6 +34,21 @@ h3 {
   margin: 20px 0;
 }
 
+.home {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background: url(../images/Landing.png);
+  background-size: cover;
+  color: white;
+}
+
+.landingsec {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .logo {
   width: 20%;
   position: relative;

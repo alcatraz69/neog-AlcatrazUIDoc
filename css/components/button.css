@@ -23,6 +23,11 @@
   opacity: 1;
 }
 
+.btn-gost-large {
+  color: #fff;
+  border: 2px solid #fff;
+}
+
 .btn-flat {
   color: white;
   padding: 8px 24px;
