@@ -30,6 +30,10 @@ h2 {
   border-bottom: 1px solid black;
 }
 
+h3 {
+  margin: 20px 0;
+}
+
 .logo {
   width: 20%;
   position: relative;
