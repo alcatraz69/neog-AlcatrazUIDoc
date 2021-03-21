@@ -6,13 +6,15 @@
   background: #151515;
 }
 
-.sidebar header {
+.Title {
   font-size: 22px;
   color: white;
   text-align: center;
   line-height: 70px;
   background: #292929;
   user-select: none;
+  display: block;
+  text-decoration: none;
 }
 
 .sidebar ul a {
