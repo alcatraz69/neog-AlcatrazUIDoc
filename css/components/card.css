@@ -44,6 +44,10 @@
   cursor: pointer;
 }
 
+.cardDesc {
+  padding-bottom: 20px;
+}
+
 @media (max-width: 700px) {
   .card {
     margin: 22px;
