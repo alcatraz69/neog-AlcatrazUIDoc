@@ -30,7 +30,10 @@
 }
 
 .cardContent {
-  padding: 24px;
+  padding: 24px 24px 0 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .blogiconcontainer {
@@ -44,14 +47,10 @@
   cursor: pointer;
 }
 
-.cardDesc {
-  padding-bottom: 20px;
-}
-
 @media (max-width: 700px) {
   .card {
     margin: 22px;
-    width: 85%;
+    width: 30%;
   }
 
   .cards {

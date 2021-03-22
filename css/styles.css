@@ -90,4 +90,13 @@ article {
     border: none;
     padding: 15px;
   }
+  h3 {
+    text-align: center;
+  }
+  .sidebar {
+    display: none;
+  }
+  .main {
+    margin: 0;
+  }
 }

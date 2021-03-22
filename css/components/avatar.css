@@ -11,7 +11,9 @@
 }
 
 .avatar {
-  padding: 25px;
+  /* padding: 25px; */
+  margin-bottom: 20px;
+  border: 2px solid;
 }
 
 .avatar-small {
@@ -30,4 +32,10 @@
   border-radius: 50%;
   width: 150px;
   height: 150px;
+}
+
+@media (max-width: 700px) {
+  .contentDiv {
+    flex-direction: column;
+  }
 }

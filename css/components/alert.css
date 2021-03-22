@@ -1,14 +1,6 @@
 .alertSection {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
+  max-width: 90%;
   margin-top: 50px;
-}
-
-.flash a {
-  margin-left: 50px;
 }
 
 .flash {
