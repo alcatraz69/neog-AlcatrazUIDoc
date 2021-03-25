@@ -68,7 +68,9 @@ p {
 }
 
 .main {
-  margin-left: 24%;
+  /* margin-left: 24%; */
+  width: 76%;
+  float: right;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -98,5 +100,6 @@ article {
   }
   .main {
     margin: 0;
+    width: 100%;
   }
 }
